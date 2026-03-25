@@ -1,0 +1,16 @@
+{% extends 'main/base.html' %}
+{% block content %}
+{% include 'main/menu.html'%}
+
+
+  <main class="container my-5 flex-grow-1">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h1 class="display-4 mb-4">Добро пожаловать на наш сайт!</h1>
+        <p class="lead">Мы предлагаем качественные услуги и индивидуальный подход к каждому клиенту.</p>
+        <a href="services.html" class="btn btn-primary btn-lg mt-3">Наши услуги</a>
+      </div>
+    </div>
+  </main>
+{% include 'main/footer.html'%}
+{% endblock %}
